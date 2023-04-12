@@ -1,0 +1,12 @@
+#barchart {
+display: grid;
+grid-template-columns: repeat(40, 1fr);
+gap: 2px
+}
+
+.bar {
+background-color: yellowgreen;
+outline: 1px solid black;
+
+height: 100px;
+}
